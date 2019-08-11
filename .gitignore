@@ -5,4 +5,3 @@ log/
 env/
 migrations/
 sendgrid.env
-sendgrid.env
