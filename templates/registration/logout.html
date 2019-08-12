@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% extends "base.html" %}
+{% load static %}
+
+{% block css %}
+	{% comment %} <link href="{% static 'css/login.bootstrap.min.css' %}" rel="stylesheet" type="text/css"> {% endcomment %}
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}
+
+{% block content %}
+
+<section class="masthead mb-0">
+    <div class="container d-flex align-items-center flex-column">
+		<div class="col-md-6 col-md-offset-3">
+            <a href="/accounts/login/" class="btn btn-primary btn-block">Login Again</a>
+		</div>
+	</div>
+</section>
+
+{% endblock %}

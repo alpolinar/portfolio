@@ -1,3 +1,7 @@
 from django.contrib import admin
+from project_manager.models import *
 
-# Register your models here.
+admin.site.register(HeaderSection)
+admin.site.register(PortfolioSection)
+admin.site.register(AboutSection)
+

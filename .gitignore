@@ -1,3 +1,7 @@
+__pycache__/
+*.pyc
 settings.py
 log/
 env/
+migrations/
+sendgrid.env
