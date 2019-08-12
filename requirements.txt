@@ -1,0 +1,9 @@
+Django==2.2.3
+django-menu==0.1.13
+django-otp==0.6.0
+mysqlclient==1.4.2.post1
+pkg-resources==0.0.0
+pytz==2019.1
+qrcode==6.1
+six==1.12.0
+sqlparse==0.3.0

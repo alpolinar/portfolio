@@ -3,6 +3,9 @@ from django.urls import path
 from django.views.generic import TemplateView
 from django.conf.urls import url
 
+from .views import *
+
 urlpatterns = [
-    url(r'$', TemplateView.as_view(template_name='index.html')),
+    url(r'^$', index, name='index'),
+    url(r'^send_message/', send_message, name="send_message"),
 ]
