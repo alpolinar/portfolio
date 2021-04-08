@@ -1,4 +1,4 @@
-Django==2.2.4
+Django==2.2.20
 django-menu==0.1.13
 django-otp==0.6.0
 mysqlclient==1.4.2.post1
